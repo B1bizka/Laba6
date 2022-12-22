@@ -10,4 +10,7 @@ class Calculator:
   def division(self,a, b):
     if b != 0:
       return a/b
+  def mod(self,a,b):
+    if b!=0:
+      return a%b
 
